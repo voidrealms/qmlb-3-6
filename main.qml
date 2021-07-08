@@ -12,8 +12,9 @@ Window {
         x: 50
         y:100
 
-        color: handlerOne.pressed ? "red" : "blue"
-
+        //color: handlerOne.pressed ? "red" : "blue"
+        color: inputHandler.pressed ? "red" : "blue"
+        
         TapHandler {
             id: inputHandler
         }
